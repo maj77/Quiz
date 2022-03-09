@@ -14,10 +14,10 @@ void Game::read_file() {
 		while (getline(file, line)) {
 			text_line++;
 			if (text_line % 2 != 0) {
-				question_number++;						// on every odd line increment question number
-				g_questions[question_number] = line;		// questions are in odd lines of .txt file
+				question_number++;					// on every odd line increment question number
+				g_questions[question_number] = line;			// questions are in odd lines of .txt file
 			}
-			if (text_line % 2 == 0) g_answers[question_number] = line;		// answers are in even lines
+			if (text_line % 2 == 0) g_answers[question_number] = line;	// answers are in even lines
 		}
 		cout << "file opened succesfully! " << endl;
 		file_loaded_flag = true;
@@ -35,7 +35,7 @@ void Game::prepare_questions(){
 	int start = 0;
 	int c_end = 0;
 	int map_size = g_answers.size();
-	//TODO: spwardzenie czy plik wejsciowy ma poprawny format poprzez np ustalenie cyz na poczatku jest nawias ostry z prawidlowa odpowiedzia
+	//TODO: better text file validation
 	for (int a_nr = 1; a_nr <= map_size; a_nr++) {
 
 		// find correct answer letter which is befoer '>' sign
