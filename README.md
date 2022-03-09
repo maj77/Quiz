@@ -1,8 +1,10 @@
 # QuizApp
  
 User manual
-For the program to work properly, the text file with the questions should be placed in the same folder as the source files. The text file containing the questions should be named Questions_Answers.txt. The question file must be created according to the following pattern:
-  • In the first line of the file, the question should be in the format: [\i]Question: question content[i].
+For the program to work properly, the text file with the questions should be placed in the same folder as the source files.
+The text file containing the questions should be named Questions_Answers.txt.
+The question file must be created according to the following pattern:
+  • In the first line of the file, the question should be in the format: [\i]Question: question content.
   • In the second line of the file you should put the answer in the following format:
     o <L> Answers: A) answer B) answer C) answer D) answer
     where L in angle brackets is the letter under which the correct answer is.
