@@ -1,12 +1,12 @@
 # QuizApp
-Simple C++ terminal application 
-3. Instrukcja użytkownika
-Aby program poprawnie działał należy umieścić plik tekstowy z pytaniami w tym samym folderze co pliki źródłowe. Plik tekstowy zawierający pytania należy nazwać Questions_Answers.txt. Plik z pytaniami musi być stworzony według następującego schematu:
-•	W pierwszej linii pliku należy umieścić pytanie w formacie: Question: treść pytania.
-•	W drugiej linii pliku należy umieścić odpowiedz w następującym formacie:
-o	<L> Answers: A) odpowiedź B) odpowiedź C) odpowiedź D) odpowiedź
-gdzie za L w ostrych nawiasach wstawiamy literę pod którą znajduje się prawidłowa odpowiedź.
-Po każdym pytaniu w kolejnej linii musi występować odpowiedź na nie. Ostatecznie pytania muszą znajdować się w nieparzystych liniach pliku a odpowiedzi w parzystych liniach pliku.
-Przykład: 
+ 
+User manual
+For the program to work properly, the text file with the questions should be placed in the same folder as the source files. The text file containing the questions should be named Questions_Answers.txt. The question file must be created according to the following pattern:
+  • In the first line of the file, the question should be in the format: [\i]Question: question content[i].
+  • In the second line of the file you should put the answer in the following format:
+    o <L> Answers: A) answer B) answer C) answer D) answer
+    where L in angle brackets is the letter under which the correct answer is.
+Each question must be followed by an answer on the next line. Ultimately, questions must be on odd lines in the file and answers on even lines in the file.
+Example:  
 ![image](https://user-images.githubusercontent.com/38226349/157452458-3b67403e-9dcb-46d8-9698-9ca31a9da7cd.png)
 Niebieskie numery oznaczają numer linii edytora i nie należą do pliku tekstowego.
