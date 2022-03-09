@@ -1,6 +1,6 @@
 # QuizApp
  
-#**User manual**
+# **User manual**
 For the program to work properly, the text file with the questions should be placed in the same folder as the source files.
 The text file containing the questions should be named Questions_Answers.txt.
 The question file must be created according to the following pattern:
